@@ -1,0 +1,61 @@
+/* *,html,body{
+    margin:0;
+    padding:0;
+
+}
+header{
+    background-color: #00BAFC;
+    height:112px;
+    line-height:112px;
+}
+ul{
+    list-style:none;
+
+}
+ul li{
+    display:inline-block;
+}
+header nav{
+    float: right;
+
+}
+header nav ul li a{
+    padding-right: 30px;
+    font-weight:bold;
+    color:white;
+    transition: all 0.5s ease-in;
+}
+header nav ul li a:hover{
+    text-decoration:none;
+    color:red;
+} */
+.carousel-item{
+    height:600px;
+}
+.carousel-image-1{
+    background:linear-gradient(rgba(121, 93, 93, 0.6),rgba(0,0,0,0.6)),url(../img/food7.webp);
+    background-size:cover;
+}
+.carousel-image-2{
+    background:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(../img/food1.jpg);
+    background-size:cover;
+}
+.carousel-image-3{
+    background:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(../img/food8.webp);
+    background-size:cover;
+}
+.menuBackground{
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(6,97,7,1) 100%, rgba(0,212,255,1) 100%);
+}
+.bgPic{
+    /*background-image: url(../img/food3.jpg);
+    background-size:cover;
+    background-attachment: fixed;
+    min-height:500px;
+}*/
+.bgContact{
+    background-image: url(../img/food4.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    min-height:100px;
+}
